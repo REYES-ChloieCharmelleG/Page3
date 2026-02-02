@@ -1,1 +1,87 @@
-
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #242323;
+        color: #ffff;
+        padding: 0 1rem;
+      }
+      .nav ul {
+        display: flex;
+        list-style-type: none;
+      }
+      .nav ul li {
+        margin: 0 10px;
+        padding: 0 10px;
+      }
+      .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 15px;
+        transition: all ease 0.4s;
+      }
+      .nav ul li a:hover {
+        color: #f0ac45;
+      }
+      footer {
+        background-color: #242323;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+      .footer-section {
+        margin: 0.5rem;
+      }
+      .footer-copyright {
+        margin-top: 1rem;
+        font-size: 14px;
+      }
+      main {
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+      h2 {
+        color: #242323;
+        margin-bottom: 1rem;
+      }
+      .images-row {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+      }
+      .images-row .image-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0.5rem;
+      }
+      .images-row .image-item img {
+        width: 300px;
+        height: 250px;
+        border: 1px solid #ddd;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+      .images-row .image-item img:hover {
+        transform: scale(1.05);
+        border: 1px solid #f0ac45;
+      }
+      .images-row .image-item p {
+        text-align: center;
+        margin-top: 0.5rem;
+        max-width: 300px;
+        font-size: 14px;
+        color: #242323;
+      }
+      .guidelines-row {
+        justify-content: space-between;
+      }
+      .templates-row {
+        justify-content: space-around;
+      }
