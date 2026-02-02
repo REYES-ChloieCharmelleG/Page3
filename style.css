@@ -90,9 +90,3 @@ body {
     align-items: center;
   }
 }
-      .guidelines-row {
-        justify-content: space-between;
-      }
-      .templates-row {
-        justify-content: space-around;
-      }
